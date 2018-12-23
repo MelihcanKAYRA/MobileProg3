@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="AppHW3.AppHW3" android:installLocation="auto">
+  <uses-sdk android:targetSdkVersion="27" android:minSdkVersion="21" />
+  <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:name="android.app.Application">
+    <activity android:label="mailAct" android:name="md51808505f3bc8f9895f2bf6e15b4fe8dc.mailAct" />
+    <activity android:label="@string/app_name" android:theme="@style/AppTheme" android:name="md51808505f3bc8f9895f2bf6e15b4fe8dc.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="AppHW3.AppHW3.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+</manifest>
